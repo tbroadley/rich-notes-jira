@@ -24,8 +24,8 @@ Only people who can edit the dashboard can change the note.
 - **Jira issues:** type an issue key such as `ABC-123` followed by a space, or paste an issue link. It becomes a chip showing the issue's type, summary and status.
 - **Mentions:** type `@` and a name.
 - **Emoji:** type `:` and two letters, or use the emoji and symbol buttons.
-- **Paste** from Google Docs, Word, web pages or Markdown. Rich Notes keeps the source formatting and cleans up text and highlight colours so they work well in dark mode.. 
-- **Copy as Markdown** to export the note or your selection.
+- **Paste** from Google Docs, Word, web pages or Markdown. Rich Notes keeps the source formatting and cleans up text and highlight colours so they work well in dark mode.
+- **Copy as Markdown:** export the note or your selection.
 - **Drafts:** unsaved changes are kept in your browser. Next time you open the Configure screen, you have the option to recover them.
 
 ## Images
@@ -36,7 +36,7 @@ Paste, drag in, or upload image files (up to 10 MB each; large photos are downsc
 
 People who can edit the dashboard can tick checklist items directly on the dashboard, without opening the editor. Ticking is disabled in wallboard view.
 
-## Other settings
+## Gadget settings
 
 - **Auto-refresh:** off, or every 1, 5, 15, 30 or 60 minutes, or a custom interval.
 - **Background tint:** one of nine colours that stay readable in light and dark mode.

@@ -19,7 +19,7 @@ The app runs entirely on Atlassian's Forge platform. We don't operate any server
 
 ## What the app reads
 
-To show issue chips and mentions, the app reads issue details (type, summary, status), project keys and user names from your Jira site, with the permissions of the person viewing the note. The app only reads and displays this data. It doesn't send or store them anywhere else.
+To show issue chips and mentions, the app reads issue details (type, summary, status), project keys and user names from your Jira site, with the permissions of the person viewing the note. The app only reads and displays this data. It doesn't send or store it anywhere else.
 
 ## No tracking, data sharing, or logging
 
