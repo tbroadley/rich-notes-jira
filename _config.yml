@@ -1,0 +1,6 @@
+# GitHub Pages builds the .md pages into .html with _layouts/default.html.
+markdown: kramdown
+defaults:
+  - scope: {path: ""}
+    values: {layout: default}
+exclude: [README.md, .obsidian, .gitignore]
