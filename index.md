@@ -62,3 +62,7 @@ Jira limits each gadget's saved data to about 32 KB. Notes are compressed, so th
 ## Support
 
 Email <hellorichnotes@outlook.com> with questions, bug reports or feature requests.
+
+## Licenses
+
+Rich Notes for Jira is provided under the Atlassian Marketplace standard [Bonterms End User Agreement](https://www.atlassian.com/licensing/marketplace/end-user-agreement-v1). It includes open-source software. See the [third-party notices](third-party-notices.txt).

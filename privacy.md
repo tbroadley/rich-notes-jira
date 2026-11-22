@@ -33,7 +33,7 @@ Note content is deleted when the gadget is removed from the dashboard. Uploaded 
 
 ## Security
 
-Data is stored and encrypted at rest by Atlassian. The app is part of Atlassian's Runs on Atlassian program.
+Data is stored and encrypted at rest by Atlassian. The app has no servers of its own and makes no network requests outside Atlassian.
 
 ## Changes
 
