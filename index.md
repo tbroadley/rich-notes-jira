@@ -7,14 +7,14 @@ footer: Rich Notes for Jira is made by Thomas Broadley. It is not made or endors
 
 ## Getting started
 
-1. Install Rich Notes for Jira from the Atlassian Marketplace (a Jira admin does this once per site).
+1. Install Rich Notes for Jira from the Atlassian Marketplace.
 2. Open a dashboard you can edit and choose **Add gadget**. Search for **Rich Notes** and add it.
 3. The gadget opens in its Configure screen. Write your note, then choose **Save**.
 4. To edit later, open the gadget's **…** menu and choose **Configure**.
 
-Everyone who can view the dashboard can read the note. Only people who can edit the dashboard can change it.
+Only people who can edit the dashboard can change the note.
 
-## Writing notes
+## Features
 
 - **Formatting:** bold, italic, underline, strikethrough, inline code, headings, alignment, superscript and subscript, text colour and highlight.
 - **Lists:** bullet, numbered and checklist lists, nested with <kbd>Tab</kbd>.
@@ -24,20 +24,21 @@ Everyone who can view the dashboard can read the note. Only people who can edit 
 - **Jira issues:** type an issue key such as `ABC-123` followed by a space, or paste an issue link. It becomes a chip showing the issue's type, summary and status.
 - **Mentions:** type `@` and a name.
 - **Emoji:** type `:` and two letters, or use the emoji and symbol buttons.
-- **Paste** from Google Docs, Word, web pages or Markdown. Formatting is kept and fonts are cleaned up so the note works in dark mode. **Copy as Markdown** exports the note or the selection.
-- **Drafts:** unsaved changes are kept in your browser and offered back the next time you open the Configure screen.
+- **Paste** from Google Docs, Word, web pages or Markdown. Rich Notes keeps the source formatting and cleans up text and highlight colours so they work well in dark mode.. 
+- **Copy as Markdown** to export the note or your selection.
+- **Drafts:** unsaved changes are kept in your browser. Next time you open the Configure screen, you have the option to recover them.
 
 ## Images
 
-Paste, drag in, or upload image files (up to 10 MB each; large photos are downscaled automatically). Click an image to resize, rotate, align it or add alt text. Images are stored in Atlassian's Forge storage for your site. Images linked from other websites aren't supported, because the app never connects to anything outside Atlassian. Copy or save the image and paste or upload it instead.
+Paste, drag in, or upload image files (up to 10 MB each; large photos are downscaled automatically). Click an image to resize, rotate, align it or add alt text. Images are stored in Atlassian's Forge storage for your site. To embed an image from another website, copy and paste it or save and upload it.
 
-## Checklists on the dashboard
+## Checklists
 
-People who can edit the dashboard can tick checklist items directly on the dashboard, without opening the editor. Other viewers see their tick undone, with an explanation. Ticking is turned off in wallboard view.
+People who can edit the dashboard can tick checklist items directly on the dashboard, without opening the editor. Ticking is disabled in wallboard view.
 
-## Gadget settings
+## Other settings
 
-- **Auto-refresh:** off, or every 1, 5, 15, 30 or 60 minutes, or a custom interval. The note updates only if it has changed.
+- **Auto-refresh:** off, or every 1, 5, 15, 30 or 60 minutes, or a custom interval.
 - **Background tint:** one of nine colours that stay readable in light and dark mode.
 
 ## Wallboards
@@ -46,17 +47,17 @@ In **View as wallboard**, text is scaled up for large screens. Combine this with
 
 ## Keyboard shortcuts
 
-| Action | Windows / Linux | Mac |
-| --- | --- | --- |
-| Save | <kbd>Ctrl</kbd>+<kbd>S</kbd> | <kbd>⌘</kbd>+<kbd>S</kbd> |
-| Link | <kbd>Ctrl</kbd>+<kbd>K</kbd> | <kbd>⌘</kbd>+<kbd>K</kbd> |
+| Action                  | Windows / Linux                                             | Mac                                                   |
+| ----------------------- | ----------------------------------------------------------- | ----------------------------------------------------- |
+| Save                    | <kbd>Ctrl</kbd>+<kbd>S</kbd>                                | <kbd>⌘</kbd>+<kbd>S</kbd>                             |
+| Link                    | <kbd>Ctrl</kbd>+<kbd>K</kbd>                                | <kbd>⌘</kbd>+<kbd>K</kbd>                             |
 | Superscript / subscript | <kbd>Ctrl</kbd>+<kbd>.</kbd> / <kbd>Ctrl</kbd>+<kbd>,</kbd> | <kbd>⌘</kbd>+<kbd>.</kbd> / <kbd>⌘</kbd>+<kbd>,</kbd> |
-| Clear formatting | <kbd>Ctrl</kbd>+<kbd>\</kbd> | <kbd>⌘</kbd>+<kbd>\</kbd> |
-| En dash / em dash | Type `--` / `---` | Type `--` / `---` |
+| Clear formatting        | <kbd>Ctrl</kbd>+<kbd>\</kbd>                                | <kbd>⌘</kbd>+<kbd>\</kbd>                             |
+| En dash / em dash       | Type `--` / `---`                                           | Type `--` / `---`                                     |
 
 ## Limits
 
-Jira limits each gadget's saved data to about 32 KB. Notes are compressed, so this is usually many pages of text. The editor warns you as a note gets close to the limit. Images don't count toward it.
+Jira limits each gadget's saved data to about 32 KB. Notes are compressed, so this is usually many pages of text. Images don't count towards this limit. As you approach the limit, the editor will warn you.
 
 ## Support
 

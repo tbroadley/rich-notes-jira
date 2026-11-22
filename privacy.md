@@ -11,7 +11,7 @@ Rich Notes for Jira ("the app") is made by Thomas Broadley ("we"). This policy e
 
 The app runs entirely on Atlassian's Forge platform. We don't operate any servers, and the app sends no data outside Atlassian. We can't see your notes, images or Jira data.
 
-## What the app stores, and where
+## What the app stores
 
 - **Note content and gadget settings** are saved in your Jira site, in the configuration of the dashboard gadget.
 - **Uploaded images** are stored in Atlassian's Forge Object Store for your Jira site.
@@ -19,9 +19,9 @@ The app runs entirely on Atlassian's Forge platform. We don't operate any server
 
 ## What the app reads
 
-To show issue chips and mentions, the app reads issue details (type, summary, status), project keys and user names from your Jira site, with the permissions of the person viewing the note. This data is only displayed. It isn't stored anywhere else.
+To show issue chips and mentions, the app reads issue details (type, summary, status), project keys and user names from your Jira site, with the permissions of the person viewing the note. The app only reads and displays this data. It doesn't send or store them anywhere else.
 
-## What we don't do
+## No tracking, data sharing, or logging
 
 - No analytics, tracking, cookies or advertising.
 - No data is sold or shared with third parties. The only service provider is Atlassian, which hosts the app.
@@ -37,7 +37,7 @@ Data is stored and encrypted at rest by Atlassian. The app is part of Atlassian'
 
 ## Changes
 
-If this policy changes, the updated version will be posted on this page with a new date.
+If this policy changes, we will post the updated version on this page with a new date.
 
 ## Contact
 
